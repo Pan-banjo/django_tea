@@ -1,0 +1,30 @@
+'db.sqlite3'为自带的数据库，禁止小白自己写东西在里面，不然会连接不到数据库 报错
+'在终端的路径':'C:\Users\无名\Downloads\PythonPlantsVsZombies-master\Gday01\Django_day2\zhonghui'
+进入目录 cd Gday01\Django_day2\zhonghui
+'启动项目命令':'  python .\manage.py runserver   '
+
+创建项目：django-admin startproject my_projectname
+
+创建迁移文件：python manage.py makemigrations
+
+应用数据库迁移：python manage.py migrate
+
+2.5.3 创建管理员账户
+命令:python manage.py createsuperuser
+用户名:admin
+电子邮件地址:admin@admin.com
+Password:098765admin
+Password (again):
+Superuser created successfully.
+
+2.5.4 登录后台添加数据
+ http://127.0.0.18000/admin/login/
+ git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+git init
+git remote add origin https://github.com/Pan-banjo/django_tea.git
+ git远程添加原点https://github.com/Pan-banjo/django_tea.git
+ git分支-M主
+git推送-u原点主
+...
